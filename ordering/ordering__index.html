@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>EKT</title>
+	<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href='../../css__common/basket.css'>
+	<link rel="icon" href="../../photos__common/emblem.png">
+</head>
+<body class="body">
+<header class="header">
+		<div class="header-content">
+			<div class="header-row">
+				<div class="header-row__right row">
+					<div class="sandwiche-row row ">
+						<div class="sandwiche-row__left"><div class="sandwiche-row__image"><a href="../../index.html" class="sandwiche-row-link"><img src="../../photos__common/emblem.png" alt=""></a></div>
+						<div class="sandwiche-row__title"><a href="../../index.html" class="sandwiche-row-link">ekt</a></div>
+						</div>
+						<div class="sandwiche-row__right">
+							<div class="sandwiche-row__insta insta">
+								<a target="new" href="https://www.instagram.com/ekt_shop/"><img src="../../photos__common/insta.png" class="icon" alt=""></a>
+							</div>
+							<div class="sandwiche__something">
+								<a href="../basket/basket__index.html" class="row__left-link row-link basketSmall"><img src="../../photos__common/basket.png" class="icon basket" alt=""><span></span></a>
+							</div>
+						<a href="#"><div class="sandwiche">
+						<span></span>
+						</div></a>
+					</div>
+					</div>
+				</div>
+				<div class="header-row__left">
+					<div class="row__left-content">
+						<div class="row__insta insta">
+								<a target="new" href="https://www.instagram.com/ekt_shop/"><img src="../../photos__common/insta.png" class="icon" alt=""></a>
+							</div>
+						<a href="../basket/basket__index.html" class="row__left-link row-link basketLarge"><img src="../../photos__common/basket.png" class="icon basket" alt=""><span></span></a>
+						
+                       <div class="row__left-links row-links">
+                       <a href="../../index.html" class="row__left-link row-link red">home</a>
+                       	<a href="../../index.html" class="row__left-link row-link">Магазин</a>
+                       	<a href="../../site__discriptions/deliver/deliver__index.html" class="row__left-link row-link">Доставка</a>
+                       	<a href="../../site__discriptions/contacts/contacts__index.html" class="row__left-link row-link">Контакти</a>
+                       	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__form">
+			<div class="form">
+				<form  action="#" id="form" class="form__body">
+					<h1 class="form__title">Оформлення замовлення</h1>
+					<div class="form__item">
+						<label for="formFirstName" class="form__label">Імя*</label>
+						<input name="firstName" type="text" class="form__input _req" id="formFirstName">
+					</div>
+					<div class="form__item">
+						<label for="formLastName" class="form__label">Прізвище*</label>
+						<input name="lastName" type="text" class="form__input _req" id="formLastName">
+					</div>
+					<div class="form__item">
+						<label for="formEmail" class="form__label">E-mail@*</label>
+						<input name="email" type="text" class="form__input _req _email " id="formEmail">
+					</div>
+					<div class="form__item">
+						<label for="formPhoneNumber" class="form__label">Номер телефону*</label>
+						<input name="phoneNumber" type="text" class="form__input _req  _number" id="formPhoneNumber">
+					</div>
+					<div class="form__item">
+						<div class="form__label">Спосіб доставки*</div>
+						<div class="options">
+							<div class="options__item">
+								<input id="formNPDelivery" checked value="NP" type="radio" name="delivery" class="options__input">
+								<label for="formNPDelivery" class="options__label"><span>Нова Пошта</span></label>
+							</div>
+							<div class="options__item">
+								<input id="formUkrPDelivery" value="UkrP" type="radio" name="delivery" class="options__input">
+								<label for="formUkrPDelivery" class="options__label"><span>Укрпошта</span></label>
+							</div>
+						</div>
+					</div>
+					<div class="form__item">
+						<label for="formCity" class="form__label">Населений пункт*</label>
+						<input id="formCity"  name="city" class="form__input _req" type="text">
+					</div>	
+					<div class="form__item">
+						<label for="formNumberDepartment" class="form__label">Відділення пошти*</label>
+						<input id="formNumberDepartment"  name="numberDepartment" class="form__input _req _number" type="text">
+					</div>
+					<div class="form__item">
+						<div class="form__label">Спосіб Оплати*</div>
+						<select name="paying" class="select">
+						<option value="cash" selected>Наложений платіж</option>
+						<option value="bank">Оплата на картку</option>
+						</select>
+					</div>
+					<div class="form__item">
+					<label for="formMessage" class="form__label">Коментар до замовлення</label>
+						<textarea name="message" type="text" class="form__input" id="formMessage"></textarea> 
+				</div>
+				<div class="form__item">
+					<div class="checkbox">
+						<input id="formCall" value="call" checked type="checkbox" name="call" class="checkbox__input">
+						<label for="formCall" class="checkbox__label">Зателефонувати після оформлення</label>
+					</div>
+				</div>
+				<div class="form__item">
+						<label for="formLocalStorage" class="form__label"></label>
+						<input id="formLocalStorage"  name="localStorage" class="form__input _req localStorage" type="text">
+					</div>	
+
+				<button type="submit" class="form__button">Оформити Замовлення</button>
+				</form>
+			</div>
+		</div>
+	</main>
+<footer class="footer">
+ <div class="footer__content">
+  <div class="footer__top">
+	<div class="footer-row__top row-links">
+    <a href="../../index.html" class="row__left-link row-link red">home</a>
+                       	<a href="../../index.html" class="row__left-link row-link">Магазин</a>
+                       	<a href="../../site__discriptions/deliver/deliver__index.html" class="row__left-link row-link">Доставка</a>
+                       	<a href="../../site__discriptions/contacts/contacts__index.html" class="row__left-link row-link">Контакти</a>
+	</div>
+   </div>
+    <div class="footer__bottom">
+    	<div class="footer-row__bottom row-links">
+         <div class="row__bottom-right">
+         	<div class="bottom-right__content">
+ 			<div class="bottom-symbol">&#169;</div>
+         	<div class="bottom-title">ekt 2021</div>
+         </div>
+     </div>
+         			<div class="row__bottom-left">
+         			<a target="new" href="https://www.instagram.com/ekt_shop/"
+         			class="icon" ><img class="icon insta" src="../../photos__common/insta.png" alt="1"></a>
+         			<a target="new" href="https://t.me/d00_13"  ><img class="telegram" src="../../photos__common/telegram.png" alt="1"></a>
+                     <a target="new" href="tel:+380984182669" ><img  class="contact"  src="../../photos__common/contacts.png" alt="1"> </a>
+         			</div>
+	</div>
+    </div>
+    </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="../../js__common/basket.js"></script>
+</body>
+</html>
